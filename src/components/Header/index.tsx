@@ -47,9 +47,9 @@ const Header = (props: {
             </li>
             <li className="nav__menu xl:py-7">
               
-              <Link to="#Who" className="font-medium text-black-3 hover:text-primary dark:text-black-5 dark:hover:text-white ">
+              <a href="#Who" className="font-medium text-black-3 hover:text-primary dark:text-black-5 dark:hover:text-white ">
                 Who Are We
-                </Link>
+                </a>
             </li>
           </ul>
         </nav>
