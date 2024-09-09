@@ -4,6 +4,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Loader from './common/Loader';
 import PageTitle from './components/PageTitle';
 import Overview from './pages/Dashboard/Overview';
+import Terms from './pages/Terms';
 import "./css/App.css";
 
 
@@ -35,7 +36,16 @@ function App() {
             </>
           }
         />
-     
+         <Route
+          path='/Privacy'
+          element={
+            <>
+              <PageTitle title="Ad Collector Privacy Policy" />
+              <Terms />
+            </>
+          }
+        />
+
     
       </Routes>
     </>

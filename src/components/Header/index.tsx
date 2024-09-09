@@ -18,7 +18,7 @@ const Header = (props: {
     </NavLink>
     
       </div>
-      <div className="invisible h-0 w-full items-center justify-between lg:w-10/12 xl:visible xl:flex xl:h-auto 2xl:w-9/12  px-50  ">
+      <div className="invisible h-0 w-full items-center justify-between lg:w-10/12 xl:visible xl:flex xl:h-auto 2xl:w-9/12  px-30  ">
         <nav>
           <ul className="flex flex-col gap-5 xl:flex-row xl:items-center 2xl:gap-9">
             <li className="nav__menu xl:py-7">
@@ -50,6 +50,14 @@ const Header = (props: {
               <a href="#Who" className="font-medium text-black-3 hover:text-primary dark:text-black-5 dark:hover:text-white ">
                 Who Are We
                 </a>
+            </li>
+            <li className="nav__menu xl:py-7">
+             <NavLink to="/Privacy">
+    
+              <a href="" className="font-medium text-black-3 hover:text-primary dark:text-black-5 dark:hover:text-white ">
+              Privacy Policy
+                </a>
+              </NavLink>
             </li>
           </ul>
         </nav>
